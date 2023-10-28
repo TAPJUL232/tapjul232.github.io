@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>student_details</title>
+</head>
+<body bgcolor="grey">
+  <form action="">
+    <fieldset>
+        <legend>personal_details</legend>
+    <label for="fname">Firstname</label>
+    <input type="text" id="fname" required name="fname" placeholder="swetha"><br><br>
+    <label for="lname">Lastname</label>
+    <input type="text" name="lname" id="lname" placeholder="kondareddy" required><br><br>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" placeholder="21" required><br><br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" placeholder="swethakondareddy52@gmail.com" required><br><br>
+    <label for="dob">DOB</label>
+    <input type="date" name="dob" id="dob" required>
+</fieldset>
+<fieldset>
+    <legend>Education_details</legend>
+    <label for="">Department</label><br><br>
+    <input type="radio" id="cs" name="dept">
+    <label for="">CS</label>
+    <input type="radio" id="ec" name="dept">
+    <label for="">EC</label>
+    <input type="radio" id="civil" name="dept">
+    <label for="">CIVIL</label>
+    <input type="radio" id="mech" name="dept">
+    <label for="">MECH</label><br><br>
+    <label for="">YOG</label>
+    <input list="yog" id="yop" name="yop">
+    <datalist id="yog">
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
+    </datalist><br><br>
+    <label for="">Skill</label><br><br>
+    <input type="checkbox" id="html" name="html">
+    <label for="">HTML</label><br><br>
+    <input type="checkbox" id="css" name="css">
+    <label for="">CSS</label><br><br>
+    <input type="checkbox" id="js" name="js">
+    <label for="">JAVASCRIPT</label>
+</fieldset>
+  </form>  
+</body>
+</html>
